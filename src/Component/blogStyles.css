@@ -1,0 +1,564 @@
+.headsiren {
+  top: 71px;
+  left: 873px;
+  width: 190px;
+  height: 87px;
+  text-align: left;
+  font: normal normal bold 71px/87px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 43%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.headsiren > h2 {
+  width: 39px;
+  height: 60px;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 20px;
+}
+.titlelink {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.stkhead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+/* header  */
+
+.hrstl2 {
+  margin: 10px 0px;
+}
+.hrstl {
+  margin: 10px 150px;
+}
+.hrstl3 {
+  margin: 5px 9.4rem 5px 10rem;
+}
+
+/* TopFeraturedArt styles */
+.parentTfa {
+  margin: 0px 140px;
+  display: flex;
+  flex-direction: row;
+}
+.sidePnt {
+  display: flex;
+  flex-direction: column;
+}
+.Topfetrd,
+.sideBox {
+  position: relative;
+}
+.sideBox > img {
+  height: 245px;
+  width: 315px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 5px;
+}
+.sideBox p {
+  padding-right: 15px;
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+  color: #eeeeee;
+  text-shadow: 2px 2px 10px #0f0e0e;
+}
+.nlink {
+  color: black;
+  text-decoration: none;
+}
+.Topfetrd > img {
+  margin: 10px;
+  border-radius: 5px;
+  height: 500px;
+  width: 800px;
+}
+.Topfetrd > p {
+  position: absolute;
+  top: 20rem;
+  left: 8rem;
+  color: #eeeeee;
+  text-shadow: 2px 2px 10px #0f0e0e;
+}
+.Topfetrd b {
+  font-size: 2rem;
+}
+
+/* labelOne js */
+.headh1 {
+  margin-left: 10rem;
+  border-bottom: 2px solid #9b0000;
+  width: 12rem;
+}
+.lathead {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9.4rem;
+  width: 80.2%;
+}
+.lathead img {
+  height: 10rem;
+  width: 22.7rem;
+  border-radius: 5px;
+}
+.latest > h1 {
+  font-size: larger;
+}
+.latest > p {
+  font-size: small;
+  width: 95%;
+}
+.link2 {
+  text-decoration: none;
+  color: black;
+}
+.link2:hover,
+.nlink:hover {
+  color: black;
+}
+
+/* labeltwo css */
+.label2 {
+  /* body compo file*/
+  margin-left: 10rem;
+  border-bottom: 2px solid #9b0000;
+  width: 16rem;
+}
+.label2parent img {
+  height: 150px;
+  width: 200px;
+  border-radius: 5px;
+}
+.label2parent p {
+  font-size: small;
+  padding-right: 7rem;
+}
+
+.label2parent {
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.childl2 {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.childl2 > span {
+  margin-left: 10px;
+}
+.fas {
+  color: orange;
+}
+.label2parent > b {
+  padding: 10px;
+  font-weight: 200;
+}
+/* body compo */
+.bodyc1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* adds compo */
+.adstle {
+  height: 50rem;
+  width: 19rem;
+  margin: 0px 9.4rem 0px 10px;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 50%;
+}
+
+/* label 3 style  */
+.label3 {
+  position: relative;
+  margin-left: 10rem;
+}
+.label3 p {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  color: white;
+}
+.label3 img {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5px;
+}
+.label3 span {
+  font-size: small;
+}
+
+/* Top post style */
+.hrstl4 {
+  margin: 0px 9.4rem 5px 0px;
+  width: 100%;
+}
+.toppost h1 {
+  border-bottom: 2px solid maroon;
+  width: 10rem;
+  margin-left: 0rem;
+}
+.toppost1 img {
+  border-radius: 5px;
+  height: 10rem;
+  width: 18.76rem;
+}
+.toppost p {
+  width: 18.76rem;
+  font-size: small;
+  font-weight: 300;
+}
+.toppost1 h1 {
+  font-size: small;
+}
+.toppost2 img {
+  border-radius: 5px;
+  height: 4rem;
+  width: 8rem;
+}
+.toppost {
+  width: 18.67rem;
+  margin-left: 1rem;
+}
+.toppost1,
+.toppost2 {
+  position: relative;
+}
+.numspan,
+.numspan2 {
+  position: absolute;
+  top: 10rem;
+  right: 0.2rem;
+  font-size: 40px;
+  font-weight: 800;
+  color: #f0f0f0;
+}
+.numspan2 {
+  top: 4.5rem;
+}
+.hrft {
+  border-bottom: 2px solid #9b0000;
+  width: 13rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.labelft {
+  margin: 5px 0px 0px 10rem;
+}
+.labelft h4 {
+  font-size: larger;
+}
+.labelft b {
+  font-weight: 200;
+  padding: 0px 0px 10px 30px;
+}
+.childft {
+  margin: 5px 2.5rem;
+  width: 19rem;
+  padding: 10px;
+  box-shadow: 5px 5px 9px gray;
+  border-radius: 5px;
+}
+.footlabel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.childft > p {
+  font-size: 0.8rem;
+}
+/* ------ */
+
+/* content page */
+.contentPage {
+  position: relative;
+  text-align: center;
+}
+.contentPage p {
+  padding: 10px 35%;
+}
+.contentPage img {
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(87, 74, 74);
+}
+.clapsicon {
+  position: fixed;
+  left: 3rem;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contentPage > i {
+  margin: 2rem 0;
+}
+.contentPage > b {
+  font-weight: 300;
+  position: absolute;
+  left: 40%;
+}
+/* show userr */
+.shousr {
+  line-height: 0.8rem;
+  height: 5rem;
+  position: relative;
+  left: 40%;
+  text-align: left;
+}
+.shousr > img {
+  box-shadow: none;
+  position: absolute;
+  left: -5%;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.shousr h5 {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+}
+.contentspan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+.contentspan li {
+  padding: 0.2rem 1rem;
+}
+.socil {
+  position: absolute;
+  top: 5rem;
+  right: 35%;
+}
+.showftr {
+  margin-left: 9.4rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+}
+.artimg {
+  height: 15rem;
+  width: 20rem;
+  margin: 0px 2rem;
+  border-radius: 5px;
+}
+.hdsf {
+  margin-left: 9.4rem;
+  font-weight: 300;
+}
+.userimg {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  height: 2rem;
+  width: 2rem;
+}
+.childshowftr h6 {
+  font-weight: 300;
+}
+.childshowftr {
+  position: relative;
+}
+.childftrspan {
+  position: relative;
+  left: 60px;
+}
+.childftrspan p {
+  font-size: 1.4rem;
+  width: 19rem;
+}
+/* collapsible stylingg */
+.bar {
+  display: none;
+  position: absolute;
+  top: 1.7rem;
+  right: 1.5rem;
+}
+/* medis wuiery start hereffffff--------------------------------- */
+@media (min-width: 280px) and (max-width: 600px) {
+  .headsiren {
+    font-size: 2rem;
+    margin: 0px 0px 0px 0px;
+  }
+  .headsiren > h2 {
+    font-size: 1rem;
+    margin: 10px -60px 0px 10px;
+  }
+  .titlelink {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+  }
+  .nlink {
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+  .stkhead {
+    position: sticky;
+  }
+  .hrstl {
+    display: none;
+  }
+  .bar {
+    display: block;
+  }
+  .parentTfa {
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidePnt {
+    display: none;
+  }
+  .Topfetrd > img {
+    height: 350px;
+    width: 95%;
+  }
+  .Topfetrd > p {
+    left: 20px;
+    top: 50%;
+    padding: 20px;
+  }
+  .headh1 {
+    margin: 20px;
+    width: 10rem;
+  }
+  .lathead {
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+  }
+  .lathead img {
+    height: 12rem;
+    width: 90%;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .label2 {
+    /* body compo file*/
+    margin-left: 5px;
+    border-bottom: 2px solid #9b0000;
+    width: 16rem;
+  }
+  .label2parent img {
+    height: 120px;
+    width: 100px;
+    border-radius: 5px;
+  }
+  .hrstl2 {
+    margin: 0px;
+    width: 450px;
+  }
+  .childl2 p {
+    width: 450px;
+  }
+  .label2parent {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* body compo */
+  .bodyc1 {
+    flex-direction: column;
+  }
+  .label3 {
+    margin: 10px;
+  }
+  /* adds compo */
+  .adstle {
+    height: 20rem;
+    width: 500px;
+    margin: 10px 0px 0px 10px;
+    padding-top: 30%;
+  }
+  .label3 img {
+    height: 280px;
+    width: 500px;
+  }
+  .toppost {
+    margin: 30px;
+  }
+  .toppost1 img {
+    height: 220px;
+    width: 450px;
+  }
+  .labelft {
+    margin: 0px;
+  }
+  .hrft {
+    margin-left: 10px;
+  }
+  .numspan {
+    top: 14rem;
+  }
+  .contentPage p {
+    padding: 10px 40px;
+  }
+  .clapsicon {
+    display: none;
+  }
+  .shousr > img {
+    left: -15%;
+  }
+  .socil {
+    top: 3rem;
+    right: 3rem;
+  }
+  .showftr {
+    margin: 5px 10px;
+    height: 20rem;
+    flex-direction: column;
+  }
+  .artimg {
+    position: absolute;
+    right: 0px;
+    height: 5rem;
+    width: 5rem;
+  }
+  .hdsf {
+    margin-left: 10px;
+  }
+  .userimg {
+    display: none;
+  }
+  .childshowftr h6 {
+    display: none;
+  }
+
+  .childftrspan small {
+    display: none;
+  }
+  .hdsf ~ hr {
+    display: none;
+  }
+  .childshowftr {
+    height: 5rem;
+  }
+  .childshowftr h5 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+  }
+  .childshowftr p {
+    text-align: left;
+  }
+}
