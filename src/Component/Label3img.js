@@ -15,7 +15,7 @@ export const Label3img = () => {
             <b>{last.category}</b> / {last.date}
           </span>
         </p>
-        <img src={last.image} />
+        <img src={last.image} alt="srcimage here"/>
       </Link>
     </div>
   );

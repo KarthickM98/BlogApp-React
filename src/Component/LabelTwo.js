@@ -26,14 +26,14 @@ export const LabelTwo = () => {
     <div className="label2parent">
       {data
         .filter((x) =>
-          category == undefined ? x.id > 7 && x.id < st : x.category == category
+          category === undefined ? x.id > 7 && x.id < st : x.category === category
         )
         .map((x) => {
-          if (x.id == 8) {
+          if (x.id === 8) {
             return (
               <Link to={`/${x.category}/${x.id}`} className="link2">
                 <div className="childl2">
-                  <img src={x.image} height={"180px"} />
+                  <img src={x.image} height={"180px"} alt="srcimage here"/>
                   <span className="textl2">
                     <h4>{x.title}</h4>
                     <p>{x.content.slice(0, 100)}</p>
@@ -49,7 +49,7 @@ export const LabelTwo = () => {
             return (
               <Link to={`/${x.category}/${x.id}`} className="link2">
                 <div className="childl2">
-                  <img src={x.image} />
+                  <img src={x.image} alt="srcimage here"/>
                   <span>
                     <h4>{x.title}</h4>
                     <p>{x.content.slice(0, 100)}</p>

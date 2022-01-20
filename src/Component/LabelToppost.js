@@ -11,17 +11,17 @@ export const LabelToppost = () => {
       <h1>Top Post</h1>
       {data
         .filter((x) =>
-          category == undefined
+          category === undefined
             ? x.id > 19 && x.id < 24
-            : x.category == category
+            : x.category === category
         )
         .map((e) => {
           {
-            if (e.id == 19) {
+            if (e.id === 19) {
               return (
                 <Link to={`/${e.category}/${e.id}`} className="link2">
                   <div className="toppost1">
-                    <img src={e.image} />
+                    <img src={e.image} alt="srcimage here" />
                     <h5>{e.title.slice(0, 32)}</h5>
                     <span className="numspan">{`${(count = count + 1)}`}</span>
                     <p>
@@ -35,7 +35,7 @@ export const LabelToppost = () => {
               return (
                 <Link to={`/${e.category}/${e.id}`} className="link2">
                   <div className="toppost2">
-                    <img src={e.image} />
+                    <img src={e.image} alt="srcimage here"/>
                     <h5>{e.title.slice(0, 32)}</h5>
                     <span className="numspan2">{`${(count = count + 1)}`}</span>
                     <p>

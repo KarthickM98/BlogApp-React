@@ -10,7 +10,7 @@ export const ShowContent = () => {
   // const [dt,setdt] =useState(); // do not use usestate hooks inside the loops forEach
   let dt1;
   data.forEach((element) => {
-    if (element.id == id) {
+    if (element.id === id) {
       dt1 = element;
     }
   });
@@ -29,10 +29,10 @@ export const ShowContent = () => {
         </span>
         <ShowUser data1={dt1.date} />
 
-        <img src={dt1.image} />
+        <img src={dt1.image} alt="srcimage here"/>
         <p>{dt1.content}</p>
         <p>{dt1.content}</p>
-        <img src={dt1.image} />
+        <img src={dt1.image} alt="srcimage here"/>
         <p>{dt1.content}</p>
         <span className="contentspan">
           <i className="fa-solid fa-hands-clapping fa-2x" /> &nbsp;{dt1.claps}!!

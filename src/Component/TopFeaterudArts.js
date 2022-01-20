@@ -27,7 +27,7 @@ export const TopFeaterudArts = () => {
       {data1.map((a) => (
         <Link to={`/${a.category}/${a.id}`}>
           <div className="Topfetrd">
-            <img src={a.image} />
+            <img src={a.image} alt="srcimage here"/>
             <p>
               <b>{a.title}</b>
               <br />
@@ -40,7 +40,7 @@ export const TopFeaterudArts = () => {
         {data2.map((a) => (
           <Link to={`/${a.category}/${a.id}`}>
             <div className="sideBox">
-              <img src={a.image} />
+              <img src={a.image} alt="srcimage here"/>
               <p>
                 <b>{a.title}</b>
                 <br />

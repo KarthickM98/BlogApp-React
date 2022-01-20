@@ -14,7 +14,7 @@ export const LabelOne = () => {
             return (
               <Link to={`/${e.category}/${e.id}`} className="link2">
                 <div className="latest">
-                  <img src={e.image} />
+                  <img src={e.image} alt="srcimage here"/>
                   <h1>{e.title.slice(0, 32)}</h1>
                   <p>{e.content.slice(0, 120)}</p>
                   <p>
