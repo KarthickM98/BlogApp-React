@@ -15,7 +15,7 @@ export const LabelToppost = () => {
             ? x.id > 19 && x.id < 24
             : x.category === category
         )
-        .map((e) => {
+        .map((e) => {// eslint-disable-next-line
           {
             if (e.id === 19) {
               return (
