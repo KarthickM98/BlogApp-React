@@ -1,9 +1,12 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router";
 import { contextData } from "./Context";
 import { ShowFooter, ShowUser } from "./ShowHeader";
 
 export const ShowContent = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[])
   const { id } = useParams();
   const { show } = useParams();
   const [data] = useContext(contextData);
