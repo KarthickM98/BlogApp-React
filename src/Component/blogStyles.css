@@ -108,19 +108,20 @@
   display: flex;
   flex-direction: row;
   margin-left: 9.4rem;
-  width: 80.2%;
+  width: 81%;
 }
 .lathead img {
   height: 10rem;
   width: 22.7rem;
   border-radius: 5px;
+  margin-right: 15px;
 }
 .latest > h1 {
   font-size: larger;
 }
 .latest > p {
   font-size: small;
-  width: 95%;
+  width: 98%;
 }
 .link2 {
   text-decoration: none;
@@ -160,6 +161,10 @@
 }
 .childl2 > span {
   margin-left: 10px;
+}
+.childl2 img{
+  height: 8rem;
+  width: 12rem;
 }
 .fas {
   color: orange;
@@ -215,11 +220,15 @@
   width: 10rem;
   margin-left: 0rem;
 }
-.toppost1 img {
+.toppost1 img{
   border-radius: 5px;
   height: 10rem;
   width: 18.76rem;
+
 }
+/* .toppost1{
+  border: 2px solid green;
+} */
 .toppost p {
   width: 18.76rem;
   font-size: small;
@@ -236,6 +245,7 @@
 .toppost {
   width: 18.67rem;
   margin-left: 1rem;
+
 }
 .toppost1,
 .toppost2 {

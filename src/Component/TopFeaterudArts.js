@@ -31,7 +31,7 @@ export const TopFeaterudArts = () => {
             <p>
               <b>{a.title}</b>
               <br />
-              {a.category}/{a.date}
+              {a.category} / {a.date}
             </p>
           </div>
         </Link>
@@ -44,7 +44,7 @@ export const TopFeaterudArts = () => {
               <p>
                 <b>{a.title}</b>
                 <br />
-                {a.category}/{a.date}
+                {a.category} / {a.date}
               </p>
             </div>
           </Link>
